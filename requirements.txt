@@ -10,5 +10,6 @@ tensorboard
 timm
 torch
 torchvision  # ponytail: imported by train.py but was missing from requirements
+gradio  # ponytail: only needed for the optional browser UI (app.py)
 tqdm
 wikipedia
