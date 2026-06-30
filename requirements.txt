@@ -1,4 +1,4 @@
-Pillow==9.5.0  # See https://github.com/tensorflow/models/issues/11040
+Pillow  # ponytail: was pinned ==9.5.0 (no wheels for py3.12+); unpinned to install
 albumentations
 huggingface-hub
 loguru
@@ -9,5 +9,6 @@ scikit-learn
 tensorboard
 timm
 torch
+torchvision  # ponytail: imported by train.py but was missing from requirements
 tqdm
 wikipedia
